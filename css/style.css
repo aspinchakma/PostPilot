@@ -259,3 +259,50 @@ img {
   font-size: 14px;
   color: #a89b90;
 }
+
+/* brand section */
+.bradnContainer {
+  margin: 100px auto;
+}
+.bradnContainer h2:first-child {
+  font-size: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+.brand_highlight {
+  font-size: 65px;
+  text-align: center;
+  line-height: 65px;
+}
+.brand_mini_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 60px;
+}
+.brand_mini_container > div {
+  padding: 50px;
+  text-align: center;
+  background-color: #fdf3ea;
+  border-radius: 10px;
+}
+.brand_mini_container > div > h3 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.brand_mini_container > div > p {
+  color: #58595d;
+}
+
+.brand_mini_container > div:nth-child(2) {
+  background-color: #e0f8f2;
+}
+.brand_mini_container > div:nth-child(3) {
+  background-color: #eeecff;
+}
+.brand_mini_container > div:nth-child(4) {
+  background-color: #d9f2f7;
+}
+.brand_mini_container > div:last-child {
+  background-color: #f1f1f1;
+}
