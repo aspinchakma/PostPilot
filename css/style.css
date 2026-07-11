@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Inter font family link*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* covered by your grace font link */
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  color: #2e2f35;
+}
+
+/* common style */
+.special_font {
+  font-family: "Covered By Your Grace", cursive;
+  color: #009387;
+  font-weight: lighter;
+}
+.common_width {
+  width: 90%;
+}
+img {
+  width: 100%;
+}
+.common_btn {
+  padding: 22px 65px;
+  border-radius: 15px;
+  color: white;
+  background-color: #ff6d2c;
+  text-transform: uppercase;
+  box-shadow: 3px 3px #2e2f35;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.common_btn:hover {
+  background-color: white;
+  color: #ff6d2c;
+  box-shadow: -3px -3px #2e2f35;
+}
+
+/* banner section */
+.banner_main_section {
+  background-color: #e0f8f2;
+  padding: 70px 0 0px;
+}
+.banner {
+  width: 95%;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner_left h1 {
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.banner_left p {
+  font-size: 20px;
+  color: #58595d;
+  margin: 20px 0;
+}
+.banner_left .banner_left_mini_container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.banner_left i {
+  color: #fdc639;
+  font-size: 18px;
+}
+.banner_left_mini_container > div > p {
+  font-size: 16px;
+  margin: 0px;
+  color: #2e2f35;
+  margin-top: 6px;
+}
+.banner_right {
+  position: relative;
+}
+.banner_right img:last-child {
+  position: absolute;
+  top: -22px;
+  left: 1px;
+}
