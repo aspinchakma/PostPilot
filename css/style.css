@@ -90,3 +90,33 @@ img {
   top: -22px;
   left: 1px;
 }
+
+/* trusted brand section */
+.trusted_container {
+  width: 90%;
+  margin: 90px auto;
+}
+.trusted_container h2 {
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 55px;
+}
+.trusted_mini_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 64px;
+}
+.trusted_container > div {
+  text-align: center;
+}
+.trusted_mini_container > div > div {
+  margin-bottom: 15px;
+}
+.trusted_mini_container > div > img {
+  max-width: 170px;
+  height: auto;
+}
+.scotch_foter_trusted_image > img {
+  width: 60px;
+}
