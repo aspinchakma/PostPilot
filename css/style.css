@@ -194,3 +194,68 @@ img {
 .direct_mail_perchantage_container div:first-child p {
   color: white;
 }
+/* postcards container */
+.postcards_main_container {
+  background-color: #fdf3ea;
+  padding: 100px 0;
+}
+.postcards_container {
+  margin: 0 auto;
+}
+.postcards_container h2 {
+  font-size: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+.post_cards_mini_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin-top: 150px;
+}
+.post_cards_mini_container h3 {
+  font-size: 50px;
+  line-height: 59px;
+}
+.post_cards_mini_container > div > p {
+  font-size: 18px;
+  color: #58595d;
+  max-width: 485px;
+  margin: 20px 0 30px;
+  line-height: 30px;
+}
+.testimonial_card {
+  position: relative;
+  border: 2px solid #d5cbc3;
+  border-radius: 10px;
+  padding: 30px;
+}
+.quote_icon {
+  color: #ff6d2c;
+  font-weight: bold;
+  font-size: 70px;
+  position: absolute;
+  left: 20px;
+  top: -26px;
+  padding: 0 10px;
+  background: #fdf3ea;
+  height: 50px;
+}
+.testimonial_card p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+.testimonial_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.testimonial_footer img {
+  max-width: 53px;
+}
+.testimonial_footer > p {
+  margin: 0;
+  font-size: 14px;
+  color: #a89b90;
+}
