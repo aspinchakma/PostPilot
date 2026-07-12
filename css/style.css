@@ -393,6 +393,48 @@ img {
   padding-top: 10px;
 }
 
+/* review section */
+.review_container {
+  margin: 0 auto;
+  padding: 90px 0;
+}
+.review_container h2 {
+  font-size: 55px;
+  text-align: center;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 90px;
+}
+.review {
+  border: 2px solid #2e2f35;
+  padding: 28px;
+  border-radius: 15px;
+}
+.review > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.review i {
+  font-size: 34px;
+}
+
+.profile_container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.profile_container img {
+  max-width: 64px;
+}
+.review_button_container {
+  text-align: center;
+  margin-top: 100px;
+}
 /* campaigns section */
 .campaigns_main_container {
   padding: 80px 0;
