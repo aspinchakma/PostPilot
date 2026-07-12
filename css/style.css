@@ -471,7 +471,7 @@ img {
   align-items: center;
 }
 .risk_free_left > h2 {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .risk_para {
@@ -506,5 +506,29 @@ img {
 .risk_free_left > p:last-child {
   font-size: 14px;
   color: rgb(235, 226, 226);
+  margin-top: 20px;
+}
+
+/* trends section */
+.trends_section {
+  padding: 70px 0;
+  background: linear-gradient(to top, #f3fafa, white);
+}
+.trends_container {
+  margin: 0 auto;
+}
+.trends_container h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.trends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.trend h3 {
+  font-size: 28px;
+  line-height: 36px;
   margin-top: 20px;
 }
