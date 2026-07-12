@@ -1,13 +1,14 @@
+/* Inter font family link*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* covered by your grace font link */
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Inter font family link*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-/* covered by your grace font link */
-@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 body {
   font-family: "Inter", sans-serif;
   color: #2e2f35;
@@ -43,11 +44,58 @@ img {
   box-shadow: -3px -3px #2e2f35;
 }
 
+/* navigation */
+.navigation_container {
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation_right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navigation_right > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.navigation_right > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.6s;
+}
+.navigation_right > ul > li {
+  padding: 19px 0;
+  border: 1px solid black;
+}
+.navigation_right > ul > li:hover a {
+  text-decoration: none;
+  color: #009387;
+}
+.navigation_container img {
+  max-width: 162px;
+}
+.nav_btn {
+  padding: 12px 25px;
+}
+.nav_first_btn {
+  background-color: white;
+  color: #2e2f35;
+}
+.nav_first_btn:hover {
+  color: #2e2f35;
+}
+
 /* banner section */
 .banner_main_section {
   background-color: #e0f8f2;
   padding: 70px 0 0px;
 }
+
 .banner {
   width: 95%;
   margin-left: auto;
