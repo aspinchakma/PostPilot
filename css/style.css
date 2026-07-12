@@ -532,3 +532,78 @@ img {
   line-height: 36px;
   margin-top: 20px;
 }
+
+/* footer  */
+footer {
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+.footer_container {
+  margin: 0 auto;
+}
+.footer_up {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 120px;
+}
+.footer_up img {
+  max-width: 112px;
+}
+.footer_up > div > p {
+  color: #58595d;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.footer_info_container {
+  line-height: 37px;
+}
+.footer_info_container h3 {
+  font-size: 22px;
+}
+.footer_info_container ul {
+  list-style: none;
+}
+.footer_info_container a {
+  color: black;
+  text-decoration: none;
+}
+#support_email {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 0px;
+}
+footer hr {
+  height: 1px;
+  background-color: #e6e6e7;
+  border: none;
+  margin: 50px 0;
+}
+.footer_down {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_down p {
+  color: #58595d;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.footer_down img {
+  max-width: 129px;
+}
+#login_button {
+  background-color: white !important;
+  color: #2e2f35;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#login_button:hover {
+  color: #2e2f35;
+}
+.footer_button_padding {
+  padding: 14px 21px;
+}
+.footer_down > div button:last-child {
+  margin-left: 10px;
+}
