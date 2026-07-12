@@ -392,3 +392,119 @@ img {
 .third_how_work > div {
   padding-top: 10px;
 }
+
+/* campaigns section */
+.campaigns_main_container {
+  padding: 80px 0;
+  background-color: #eeecff;
+}
+.campaigns_container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 55px;
+}
+.campaing_left_container {
+  text-align: center;
+}
+.campaing_left_container img {
+  max-width: 100%;
+}
+
+.campaing_right_container h2 {
+  font-size: 50px;
+  color: #2e2f35;
+}
+.campaing_right_container > p {
+  font-size: 18px;
+  color: #58595d;
+  margin: 30px 0;
+}
+.campaing_right_up {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.campaing_right_container > div h3 {
+  font-size: 25px;
+  color: #2e2f35;
+}
+.campaing_right_container > div > p {
+  font-size: 14px;
+  color: #58595d;
+}
+.campaing_right_container button {
+  background-color: white;
+  color: #2e2f35;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.campaing_right_container button:hover {
+  color: #2e2f35;
+}
+.campaing_right_footer {
+  margin-top: 30px;
+  border-bottom: 1px solid #e6e4f7;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+.campaing_right_footer > div {
+  padding: 20px;
+}
+.campaing_right_footer > div:first-child {
+  border-bottom: 1px solid #009387;
+}
+
+/* risk free section */
+.riskfree {
+  background-color: #ff6d2c;
+  color: white;
+}
+.risk_free_container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+.risk_free_left > h2 {
+  font-size: 70px;
+}
+
+.risk_para {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.risk_free_container button {
+  background-color: white;
+  color: #2e2f35;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.risk_free_container img {
+  max-width: 596px;
+  display: block;
+}
+.risk_free_container button:hover {
+  color: #2e2f35;
+}
+.risk_free_left > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.risk_free_left > div > div > p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+.risk_free_left > p:last-child {
+  font-size: 14px;
+  color: rgb(235, 226, 226);
+  margin-top: 20px;
+}
