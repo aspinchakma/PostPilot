@@ -94,7 +94,7 @@ img {
 /* trusted brand section */
 .trusted_container {
   width: 90%;
-  margin: 106px auto;
+  margin: 90px auto;
 }
 .trusted_container h2 {
   text-align: center;
@@ -305,4 +305,90 @@ img {
 }
 .brand_mini_container > div:last-child {
   background-color: #f1f1f1;
+}
+
+/* how work section */
+.how_works_container {
+  background-color: #e3f8f8;
+  padding: 70px 0;
+}
+.how_works_mini_container {
+  margin: 0 auto;
+}
+.how_works_mini_container h2 {
+  text-align: center;
+  font-size: 55px;
+  line-height: 65px;
+}
+.how_works_mini_container > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.how_works_mini_container > div > div > div {
+  margin: 30px 0;
+}
+.main_content_how_works {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.main_content_how_works h3 {
+  font-size: 40px;
+}
+.main_content_how_works h4 {
+  font-size: 35px;
+}
+
+.first_how_work > h3 {
+  color: #88d0cb;
+}
+.first_how_work > h4 {
+  color: #9ba8aa;
+}
+.second_how_work > h3 {
+  color: #88d0cb;
+}
+.second_how_work > h4 {
+  color: #9ba8aa;
+}
+.fourth_how_works > h3 {
+  color: #88d0cb;
+}
+.fourth_how_works > h4 {
+  color: #9ba8aa;
+}
+
+.third_how_work h4 {
+  margin-bottom: 4px;
+}
+.third_how_work p {
+  color: #58595d;
+  font-size: 19px;
+}
+/* ............line ........... */
+.how_works_container_left {
+  position: relative;
+}
+.line_how_work {
+  width: 2px;
+  height: 115px;
+  background-color: #a0cdcd;
+  position: absolute;
+  bottom: 59px;
+  left: 22px;
+}
+.line_how_work_child {
+  position: absolute;
+  width: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0px;
+  height: 65%;
+  background-color: #2e2f35;
+}
+.third_how_work {
+  align-items: start;
+}
+.third_how_work > div {
+  padding-top: 10px;
 }
