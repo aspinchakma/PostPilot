@@ -123,6 +123,7 @@ img {
   text-decoration: none;
   white-space: nowrap;
   font-weight: bold;
+  font-size: 14px;
 }
 .resources_dropdown > div > ul > li > a:hover {
   color: #009387;
@@ -146,13 +147,70 @@ img {
 .resources_main_container:hover .resources_main_dropdwon {
   display: block;
 }
+/* ..............drop down menu for Company ......... */
+.company_li_parent {
+  position: relative;
+}
+.company_dropdwon_parent_container {
+  border: 2px solid black;
+  padding: 20px;
+  position: absolute;
+  bottom: -186px;
+  left: -141px;
+  z-index: 33;
+  background-color: white;
+  border-radius: 8px;
+}
+.company_main_container {
+  display: flex;
+  gap: 30px;
+}
+
+.comany_content_container h3 {
+  font-size: 18px;
+  border-bottom: 3px solid #009387;
+  margin-bottom: 10px;
+}
+.comany_content_container ul {
+  list-style-type: none;
+  line-height: 28px;
+}
+.comany_content_container > ul > li > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  white-space: nowrap;
+}
+.comany_content_container > ul > li:hover > a {
+  color: #009387;
+}
+.company_dropdwon_parent_container,
+.company_empty {
+  display: none;
+}
+.company_li_parent:hover .company_dropdwon_parent_container {
+  display: block;
+}
+
+.company_empty {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  position: absolute;
+  top: -11px;
+  left: 218px;
+  z-index: 40;
+  transform: rotate(-45deg);
+}
 
 /* banner section */
 .banner_main_section {
   background-color: #e0f8f2;
   padding: 70px 0 0px;
 }
-
 .banner {
   width: 95%;
   margin-left: auto;
